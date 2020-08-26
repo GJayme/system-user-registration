@@ -6,7 +6,7 @@ import './Main.css'
 
 export default props =>
   <>
-    <Header />
+    <Header {...props} />
     <main className="content">
       Conteúdo
     </main>
